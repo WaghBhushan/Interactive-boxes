@@ -1,0 +1,122 @@
+/* CSS Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.bundle-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #28a745; /* Green color for the heading */
+    margin-bottom: 20px;
+}
+
+.bundle-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #cfcfcf;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    background-color: #fff;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Change border color on hover */
+.bundle-option:hover {
+    border-color: #1c7430;
+    background-color: #e7f2e9; /* Darker green border on hover */
+}
+
+.pricing-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+.size-colour-container {
+    margin-top: 10px;
+}
+
+.size-colour-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.size-colour-row div {
+    display: flex;
+    flex-direction: column;
+}
+
+.discount-info {
+    margin-left: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.most-popular {
+    color: #28a745; /* Green color for "Most Popular" */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.shipping-total {
+    display: flex;
+    justify-content: space-between; /* Align free shipping and total price */
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.free-shipping {
+    color: #28a745; /* Green color for free shipping text */
+}
+
+.total-price {
+    text-align: right; /* Align total price to the right */
+}
+
+.pair-selection {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    accent-color: #28a745; /* Green color for selected radio button */
+}
+
+label {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+/* Add to Cart Button Styling */
+.add-to-cart {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Green color for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.add-to-cart:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+
+
+
+
+

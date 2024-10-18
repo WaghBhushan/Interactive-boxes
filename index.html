@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundle & Save</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bundle-container">
+        <h1>Bundle & Save</h1>
+
+        <!-- Pair 1 -->
+        <div class="bundle-option">
+            <input type="radio" name="bundle" class="pair-selection" onclick="toggleDetails(1, 195)" />
+            <div class="pricing-info">
+                <div>1 Pair</div>
+                <div>DKK 195.00</div>
+                <div class="size-colour-container" id="details-1" style="display: none;">
+                    <div class="size-colour-row">
+                        <div>
+                            <label>Size</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Colour</label>
+                            <select>
+                                <option value="" disabled selected>Colour</option> <!-- Default Placeholder -->
+                                <option>Red</option>
+                                <option>Green</option>
+                                <option>Yellow</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="size-colour-row">
+                        <div>
+                            <label>Size</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Colour</label>
+                            <select>
+                                <option value="" disabled selected>Colour</option> <!-- Default Placeholder -->
+                                <option>Red</option>
+                                <option>Green</option>
+                                <option>Yellow</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-info">50% OFF</div>
+        </div>
+
+        <!-- Pair 2 -->
+        <div class="bundle-option">
+            <input type="radio" name="bundle" class="pair-selection" onclick="toggleDetails(2, 345)" />
+            <div class="pricing-info">
+                <div>2 Pair</div>
+                <div>DKK 345.00</div>
+                <div class="size-colour-container" id="details-2" style="display: none;">
+                    <div class="size-colour-row">
+                        <div>
+                            <label>Size</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Colour</label>
+                            <select>
+                                <option value="" disabled selected>Colour</option> <!-- Default Placeholder -->
+                                <option>Red</option>
+                                <option>Green</option>
+                                <option>Yellow</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="size-colour-row">
+                        <div>
+                            <label>Size</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Colour</label>
+                            <select>
+                                <option value="" disabled selected>Colour</option> <!-- Default Placeholder -->
+                                <option>Red</option>
+                                <option>Green</option>
+                                <option>Yellow</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-info">
+                <div class="most-popular">Most Popular</div>
+                40% OFF
+            </div>
+        </div>
+
+        <!-- Pair 3 -->
+        <div class="bundle-option">
+            <input type="radio" name="bundle" class="pair-selection" onclick="toggleDetails(3, 528)" />
+            <div class="pricing-info">
+                <div>3 Pair</div>
+                <div>DKK 528.00</div>
+                <div class="size-colour-container" id="details-3" style="display: none;">
+                    <div class="size-colour-row">
+                        <div>
+                            <label>Size</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Colour</label>
+                            <select>
+                                <option value="" disabled selected>Colour</option> <!-- Default Placeholder -->
+                                <option>Red</option>
+                                <option>Green</option>
+                                <option>Yellow</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="size-colour-row">
+                        <div>
+                            <label>Size</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Colour</label>
+                            <select>
+                                <option value="" disabled selected>Colour</option> <!-- Default Placeholder -->
+                                <option>Red</option>
+                                <option>Green</option>
+                                <option>Yellow</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-info">60% OFF</div>
+        </div>
+
+        <!-- Free Shipping and Total Price -->
+        <div class="shipping-total">
+            <div class="free-shipping">Free 2 Day Shipping</div>
+            <div class="total-price" id="total-price" style="display: none;">Total: DKK 0.00</div>
+        </div>
+
+        <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
